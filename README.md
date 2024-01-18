@@ -1,6 +1,6 @@
 # Frontend Mentor - Tip calculator app
 
-![Design preview for the Tip calculator app coding challenge](./design/desktop-preview.jpg)
+![desktop-preview](https://github.com/sachidumaleesha/tip-calculator-app/assets/45502921/13c458be-2b2c-4fd2-893b-8a4035dd8113)
 
 ## Welcome! 👋
 
