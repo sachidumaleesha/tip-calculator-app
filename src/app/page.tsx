@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className='bg-[#c5e4e7] flex flex-col md:justify-center items-center min-h-screen'>
+    <main className='bg-[#c5e4e7] flex flex-col md:justify-center items-center md:min-h-screen'>
 
       {/* App Name */}
       <div className='flex flex-col text-[#00494d] font-mono text-xl font-semibold tracking-[0.5rem] mt-10 md:mt-0'>
@@ -10,7 +10,7 @@ export default function Home() {
         <p>TTER</p>
       </div>
       
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-8 bg-white max-w-[700px] w-full m-10 p-5 rounded-t-3xl md:rounded-xl'>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-8 bg-white max-w-[700px] w-full mt-10 p-5 rounded-t-3xl md:rounded-xl'>
 
         {/* Left */}
         <div className='flex flex-col gap-7'>
@@ -41,7 +41,7 @@ export default function Home() {
                 <p>50%</p>
               </div>
               <div>
-                <input type="text" placeholder='custom' className='bg-slate-200 w-full h-10 outline-none text-end text-[#00494d] font-semibold font-mono text-xl rounded-lg px-3'/>
+                <input type="text" placeholder='custom' className='bg-slate-200 w-full h-10 outline-none text-end text-[#00494d] font-semibold font-mono text-xl rounded-lg px-3 h-full'/>
               </div>
             </div>
           </div>
